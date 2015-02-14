@@ -24,7 +24,11 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # security for private information on GitHub
-gem "figaro"
+gem 'figaro'
+
+#authentication and authorization gems
+gem 'devise'
+gem 'passport'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
