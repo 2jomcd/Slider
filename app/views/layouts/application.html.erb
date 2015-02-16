@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Slider</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -8,21 +9,12 @@
 </head>
 
 <body>
-
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
 
-<div class="container">
-	<div class="row">
-			<div class="span9">
+  <%= render 'shared/navbar' %>
+
 				<%= yield %>
-			</div>
-			<div class="span3">
-				<h2>Select Photo</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero dolor, sollicitudin non lobortis sit amet.</p>
-			</div>
-	</div>
-</div>
 
 </body>
 </html>

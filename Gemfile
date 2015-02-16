@@ -29,6 +29,10 @@ gem 'figaro'
 gem 'devise', '~> 3.4.1'
 gem 'passport'
 
+# Bootstrap for front styling
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
