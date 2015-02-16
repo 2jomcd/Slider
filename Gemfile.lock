@@ -225,7 +225,7 @@ DEPENDENCIES
   byebug
   capybara
   coffee-rails (~> 4.1.0)
-  devise
+  devise (~> 3.4.1)
   factory_girl_rails
   figaro
   jbuilder (~> 2.0)
@@ -233,7 +233,7 @@ DEPENDENCIES
   launchy
   passport
   rails (= 4.2.0)
-  rspec-rails (~> 3.0)
+  rspec-rails
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   shoulda-matchers
