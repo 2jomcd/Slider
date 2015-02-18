@@ -1,0 +1,21 @@
+Steps
+
+register user
+
+new photo
+
+Get image from uploadcare and load into game
+
+Get URL path from Uploadcare and store in slider database.
+
+
+
+Play game
+
+Pause game
+
+Save game state
+
+Restart game with new photo
+
+Favorte a photo.

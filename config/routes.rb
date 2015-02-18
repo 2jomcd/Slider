@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   resources :games
 
   # You can have the root of your site routed with "root"
-root 'home#index'
+  root 'home#index'
 
   #use views created by devise for user reg and login
   devise_for :users

@@ -263,12 +263,13 @@ puzzle.initVars = function() {
 };
 
 puzzle.initElements = function(fileURL, fileType, callback) {
-    var container = document.createElement('div');
+    // var container = document.createElement('div');
 
-    container.id = 'container';
-    document.body.appendChild(container);
-    puzzle.height = window.innerHeight;
-    puzzle.width = window.innerWidth;
+    // container.id = 'container';
+    // document.body.appendChild(container);
+
+    puzzle.height = window.innerHeight / 2;
+    puzzle.width = window.innerWidth / 2;
 
     puzzle.createTiles();
 
@@ -399,8 +400,8 @@ puzzle.redraw = function(reposition) {
     var ctx = null, puzzleOrientation = null, imageOrientation = null;
     var canvas = puzzle.canvas;
 
-    puzzle.height = window.innerHeight;
-    puzzle.width = window.innerWidth;
+    puzzle.height = window.innerHeight / 2;
+    puzzle.width = window.innerWidth / 2;
     canvas.width = puzzle.width;
     canvas.height = puzzle.height;
     ctx = canvas.getContext('2d');
