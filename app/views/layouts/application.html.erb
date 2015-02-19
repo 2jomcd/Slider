@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -7,14 +6,15 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   
-  <script>
-	  UPLOADCARE_LOCALE = "en";
-	  UPLOADCARE_TABS = "file url facebook gdrive";
-	  UPLOADCARE_AUTOSTORE = true;
-	  UPLOADCARE_PUBLIC_KEY = "6d1b3e35610feb2cc472";
-	</script>
-	<script src="//ucarecdn.com/widget/1.5.5/uploadcare/uploadcare.full.min.js">
-	</script>
+<script>
+  UPLOADCARE_LOCALE = "en";
+  UPLOADCARE_TABS = "file url facebook gdrive dropbox instagram evernote flickr skydrive";
+  UPLOADCARE_AUTOSTORE = true;
+  UPLOADCARE_PUBLIC_KEY = "6d1b3e35610feb2cc472";
+</script>
+
+
+
 
 </head>
 
@@ -24,5 +24,9 @@
   <p class="alert"><%= alert %></p>
 
 	<%= yield %>
+
+  <script src="//ucarecdn.com/widget/1.5.5/uploadcare/uploadcare.full.min.js">
+</script>
+
 </body>
 </html>

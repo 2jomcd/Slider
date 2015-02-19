@@ -29,9 +29,14 @@ gem 'figaro'
 gem 'devise', '~> 3.4.1'
 gem 'passport'
 
+#Photo management = uploadCare
+gem 'uploadcare-rails', "~> 1.0"
+
 # Bootstrap for front styling
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
+
+gem 'pry-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

@@ -16,8 +16,9 @@
     <% @photos.each do |photo| %>
       <tr>
         <td><%= photo.name %></td>
-        <td><%= photo.UUID %></td>
+        <td><img style="height:100px;width:100px;" src='<%= photo.UUID %>'></td>
         <td><%= photo.favorite %></td>
+        <td><button onClick="puzzle.init(<%= photo.UUID %>.result.blob)">Start</button></td>
         <td><%= link_to 'Show', photo %></td>
         <td><%= link_to 'Edit', edit_photo_path(photo) %></td>
         <td><%= link_to 'Destroy', photo, method: :delete, data: { confirm: 'Are you sure?' } %></td>

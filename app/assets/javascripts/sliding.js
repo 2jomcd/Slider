@@ -41,8 +41,7 @@ function init() {
             e.preventDefault();
             var pick = new MozActivity({
                 name: "pick",
-                data: {
-                    type: ["image/png", "image/jpg", "image/jpeg"]
+                data: {type: ["image/png", "image/jpg", "image/jpeg"]
                 }
             });
             pick.onsuccess = function() {
@@ -322,7 +321,7 @@ puzzle.resumeGame = function() {
                 puzzle.tiles[i][j].reposition();
             }
         }
-        hideGui();
+        // hideGui();
     });
 };
 
