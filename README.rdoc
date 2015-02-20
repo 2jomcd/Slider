@@ -1,28 +1,29 @@
-== README
+== SLIDER
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+****  DANGER WILL ROBINSON!!  DANGER!! ****
 
-Things you may want to cover:
+Is anyone reading this old enough to remember this TV show?  Probably not.  
+Maybe some have seen the movie...  but I digress.
 
-* Ruby version
+This project is a work-in-progress.
 
-* System dependencies
+The good news is that some things work.  The bad news is that both the UX and much of the code 
+looks like hell!  So there it is.  You are warned.
 
-* Configuration
+Slider is a game application that incorporates the user's 
+favorite photographs (pulled from Facebook and other sources) 
+in the gameplay.
 
-* Database creation
+The initial game is a 15-tile sliding puzzle.  But I have BIG, HUGE, MONSTER plans to add more games.
+Games like:  TIc-Tac-Toe, Connect Four, Where's Waldo, and more!
 
-* Database initialization
+*  Back end framework:  Ruby on Rails
+*  Front end framework: Bootstrap.
+*  Game play:  Javascript, JQuery, and just a touch of Ajax.
+*  Slider game:  https://github.com/diox/web-sliding-puzzle
+*  Authentication and authorization:  Devise
+*  TDD & BDD:   Rspec with Capybara.
 
-* How to run the test suite
+Best wishes to all!
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+"Learn as if you were to live forever..." - Gandhi
