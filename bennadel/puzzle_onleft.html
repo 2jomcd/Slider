@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>jQuery Demo: Creating A Sliding Image Puzzle</title>
+ 
+    <script type="text/javascript" src="jquery-latest.pack.js"></script>
+    <script type="text/javascript" src="jquery.puzzle.js"></script>
+    <script type="text/javascript">
+
+        // When the document is ready, hook up the puzzle
+        // functionality to the targeted DIVs.
+        $(
+            function(){
+                $( "div.puzzle, p" ).puzzle( 100 );
+            }
+            );
+
+    </script>
+</head>
+<body>
+ 
+    <h1>
+        Slider
+    </h1>
+ 
+
+ 
+
+    <div
+        class="puzzle"
+        style="float: left ; margin-right: 50px ;">
+ 
+    <h2> PUZZLE </h2>
+        <img
+            src="./puzzle_girl1.jpg"
+            width="500"
+            height="500"
+            alt="Puzzle Girl One"
+            />
+ 
+    </div>
+
+    <il>
+    
+    <div
+        style="float: left ;">
+ 
+    <h2> PHOTO </h2>
+        <img
+            src="./puzzle_girl2.jpg"
+            width="500"
+            height="500"
+            alt="Puzzle Girl Two"
+            />
+    </div>
+ 
+</body>
+</html>
