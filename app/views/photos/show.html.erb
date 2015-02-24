@@ -10,10 +10,31 @@
   <%= @photo.UUID %>
 </p>
 
-<p>
-  <strong>Favorite:</strong>
-  <%= @photo.favorite %>
-</p>
+<div
+        class="puzzle"
+        style="float: left ; margin-right: 50px ;">
+ 
+        <img
+            src=" <%= @photo.UUID %> "
+            width="500"
+            height="500"
+
+            />
+
+    </div>
+
+    
+    <div
+        style="float: left ;">
+        <p> <%= @photo.UUID %></p>
+ 
+        <img
+            src=" <%= @photo.UUID %> "
+            width="500"
+            height="500"
+            />
+ </div>
+
 
 <%= link_to 'Edit', edit_photo_path(@photo) %> |
 <%= link_to 'Back', photos_path %>
