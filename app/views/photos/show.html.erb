@@ -1,40 +1,44 @@
 <p id="notice"><%= notice %></p>
 
+<%= link_to 'Edit', edit_photo_path(@photo) %> |
+<%= link_to 'Back', photos_path %>
+
+<script type="text/javascript">
+
+        // When the document is ready, hook up the puzzle
+        // functionality to the targeted DIVs.
+        $(
+            function(){
+                $( "div.puzzle, p" ).puzzle( 125 );
+            }
+            );
+
+</script>
+
+
 <p>
   <strong>Name:</strong>
   <%= @photo.name %>
 </p>
 
-<p>
-  <strong>Uuid:</strong>
-  <%= @photo.UUID %>
-</p>
-
 <div
-        class="puzzle"
-        style="float: left ; margin-right: 50px ;">
+  class="puzzle"
+  style="float: left ; margin-right: 50px ;"
+  >
  
-        <img
-            src=" <%= @photo.UUID %> "
-            width="500"
-            height="500"
+  <img
+    src=" http://www.ucarecdn.com/<%= @photo.UUID %>/-/resize/500x500/ "
+      />
 
-            />
-
-    </div>
+</div>
 
     
-    <div
-        style="float: left ;">
-        <p> <%= @photo.UUID %></p>
- 
-        <img
-            src=" <%= @photo.UUID %> "
-            width="500"
-            height="500"
-            />
+<div
+  style="float: left ;">
+    <img
+        src=" http://www.ucarecdn.com/<%= @photo.UUID %>/-/resize/500x500/ "
+        />
  </div>
 
 
-<%= link_to 'Edit', edit_photo_path(@photo) %> |
-<%= link_to 'Back', photos_path %>
+

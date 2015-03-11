@@ -377,7 +377,7 @@ jQuery.fn.puzzle = function( intUserSize ){
  
             // The width / height of each piece. This can be overriden
             // by the user when the initialize the puzzle plug-in.
-            var intSize = intUserSize || 100;
+            var intSize = intUserSize || 125;
  
             // The number of columns that are in the board.
             var intColumns = 0;

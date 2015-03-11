@@ -1,0 +1,2 @@
+ views/photos/index - line 21
+         <td><button onClick="puzzle.init(<%= photo.UUID %>.result.blob)">Start</button></td>
