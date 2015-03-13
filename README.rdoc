@@ -1,28 +1,23 @@
 == SLIDER
 
-****  DANGER WILL ROBINSON!!  DANGER!! ****
-
-Is anyone reading this old enough to remember this TV show?  Probably not.  
-Maybe some have seen the movie...  but I digress.
-
-This project is a work-in-progress.
-
-The good news is that some things work.  The bad news is that both the UX and much of the code 
-looks like hell!  So there it is.  You are warned.
+****  It's a Wrap!!  ****
 
 Slider is a game application that incorporates the user's 
 favorite photographs (pulled from Facebook and other sources) 
 in the gameplay.
 
-The initial game is a 15-tile sliding puzzle.  But I have BIG, HUGE, MONSTER plans to add more games.
-Games like:  TIc-Tac-Toe, Connect Four, Where's Waldo, and more!
+The demo game is a 15-tile sliding puzzle. 
 
 *  Back end framework:  Ruby on Rails
 *  Front end framework: Bootstrap.
 *  Game play:  Javascript, JQuery, and just a touch of Ajax.
-*  Slider game:  https://github.com/diox/web-sliding-puzzle
+*  Slider game: http://www.bennadel.com/blog/1009-jquery-demo-creating-a-sliding-image-puzzle-plug-in.htm
 *  Authentication and authorization:  Devise
 *  TDD & BDD:   Rspec with Capybara.
+
+Credit where credit is due:  
+To my instructors at GA, especially Ilias - http://iliastsangaris.com/ - my coach on thsi proejct.
+To Linda Martinez - https://github.com/catlag - who worked side-by-side with me to get this project completed.
 
 Best wishes to all!
 
