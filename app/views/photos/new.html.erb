@@ -2,12 +2,11 @@
 
 <%= link_to 'Back', photos_path %>
 
-
-
 <div class="input">
-<input class="name" placeholder="Photo Name"></input>
+<input class="name" required placeholder="Photo Name"></input>
 <input class="info" type="hidden" name="UUID"
   role="uploadcare-uploader"
+
   data-images-only="true" />
  <input type="submit" value="Save" class ="btn">
  </div>

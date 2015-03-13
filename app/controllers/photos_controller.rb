@@ -4,7 +4,8 @@ class PhotosController < ApplicationController
   # GET /photos
   # GET /photos.json
   def index
-    @photos = Photo.all
+    @user = current_user
+    @photos = @user.photos
   end
 
   # GET /photos/1
@@ -25,7 +26,9 @@ class PhotosController < ApplicationController
   # POST /photos
   # POST /photos.json
   def create
+    @user = current_user
     @photo = Photo.new(photo_params)
+    @user.photos.push(@photo)
 
   
     respond_to do |format|
